@@ -45,4 +45,11 @@ const product = hipermercado.addProduct('Lechelita', 'Leche deslactosada', 800, 
 const product2 = hipermercado.addProduct('Blue Label', 'Es un elisir', 300000, 'soy_super_expensive.png', 4 );
 const product3 = hipermercado.addProduct('Pitusas', 'Las galletitas mas nobles del mundo', 400, 'pitusas.png', 4 );
 const product4 = hipermercado.addProduct('Coca Cola', 'Formula ultrasecreta pero deliciosa 😋', 600, 'soy_una_coca.png', 4 );
+
+/*------Get all products------*/
+
+console.log(hipermercado.getProducts()); 
+
+/*------Id Finder------*/
+
 console.log(hipermercado.getProductsById(2));
